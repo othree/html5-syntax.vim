@@ -13,4 +13,4 @@ Support [microdata][microdata] and [WAI-ARIA][WAI-ARIA].
     cp syntax/html.vim ~/.vim/syntax/
 
 [microdata]:http://www.w3.org/TR/microdata/
-[WAI-ARIA]:http://www.w3.org/TR/wai-aria/}[WAI-ARIA]{http://www.w3.org/TR/wai-aria/
+[WAI-ARIA]:http://www.w3.org/TR/wai-aria/
