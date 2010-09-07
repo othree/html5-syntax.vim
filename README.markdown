@@ -4,7 +4,7 @@ HTML5 syntax file for vim.
 
 ## Feature
 
-Support [microdata]{http://www.w3.org/TR/microdata/} and [WAI-ARIA]{http://www.w3.org/TR/wai-aria/}.
+Support [microdata][microdata] and [WAI-ARIA][WAI-ARIA].
 
 ## Install
 
@@ -12,3 +12,5 @@ Support [microdata]{http://www.w3.org/TR/microdata/} and [WAI-ARIA]{http://www.w
     cd html5-syntax.vim
     cp syntax/html.vim ~/.vim/syntax/
 
+[microdata]:http://www.w3.org/TR/microdata/
+[WAI-ARIA]:http://www.w3.org/TR/wai-aria/}[WAI-ARIA]{http://www.w3.org/TR/wai-aria/
