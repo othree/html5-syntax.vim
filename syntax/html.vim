@@ -50,6 +50,10 @@ syn keyword htmlArg contained label icon open datetime pubdate
 " http://dev.w3.org/html5/md/
 syn keyword htmlArg contained item itemid itemscope itemtype itemprop 
 
+" RDFa
+" http://www.w3.org/TR/rdfa-syntax/#a_xhtmlrdfa_dtd
+syn keyword htmlArg contained about typeof property resource content datatype rel rev 
+
 " WAI-ARIA States and Properties
 " http://www.w3.org/TR/wai-aria/states_and_properties
 " Global States and Properties
