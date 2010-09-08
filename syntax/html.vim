@@ -56,6 +56,7 @@ syn keyword htmlArg contained about typeof property resource content datatype re
 
 " WAI-ARIA States and Properties
 " http://www.w3.org/TR/wai-aria/states_and_properties
+syn keyword htmlArg contained role
 " Global States and Properties
 syn match  htmlArg contained "\<aria-\(atomic\|busy\|controls\|describedby\)\>"
 syn match  htmlArg contained "\<aria-\(disabled\|dropeffect\|flowto\|grabbed\)\>"
