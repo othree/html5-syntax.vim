@@ -8,16 +8,19 @@
 "
 " Note: This file just adds the new tags from HTML 5
 "       and don't replace default html.vim syntax file
+"
 " Modified:     othree <othree@gmail.com>
 " Changes:      update to Draft 28 August 2010
 "               add complete new attributes
 "               add wai-aria attributes
+"               add microdata attributes
+"               add rdfa attributes
 
 " HTML 5 tags
-syn keyword htmlTagName contained article aside audio canvas command datagrid
-syn keyword htmlTagName contained datalist details dialog embed figure footer
+syn keyword htmlTagName contained article aside audio canvas command
+syn keyword htmlTagName contained datalist details dialog embed figcaption figure footer
 syn keyword htmlTagName contained header hgroup keygen mark meter menu nav output
-syn keyword htmlTagName contained progress time ruby rt rp section time track video
+syn keyword htmlTagName contained progress time ruby rt rp section source summary time track video wbr
 
 " HTML 5 arguments
 " Core Attributes
@@ -45,6 +48,10 @@ syn keyword htmlArg contained form autocomplete autofocus list min max step
 syn keyword htmlArg contained formaction autofocus formenctype formmethod formtarget formnovalidate
 " <command>, <details>, <time>
 syn keyword htmlArg contained label icon open datetime pubdate
+
+" Custom Data Attributes
+" http://dev.w3.org/html5/spec/Overview.html#custom-data-attribute
+syn match   htmlArg "\<\(data(\-[a-z]\+)\+\)=" contained
 
 " Microdata
 " http://dev.w3.org/html5/md/
