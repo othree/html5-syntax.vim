@@ -7,7 +7,7 @@ HTML5 syntax file for vim.
 - Support all new elements and attribute, including [custom data][customdata].
 - Support [microdata][microdata].
 - Support [RDFa][RDFa].
-- Support [WAI-ARIA][aria].
+- Support [WAI-ARIA][WAI-ARIA].
 
 ## Install
 
