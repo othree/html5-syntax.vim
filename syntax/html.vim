@@ -55,7 +55,7 @@ syn match   htmlArg "\<\(data(\-[a-z]\+)\+\)=" contained
 
 " Microdata
 " http://dev.w3.org/html5/md/
-syn keyword htmlArg contained item itemid itemscope itemtype itemprop 
+syn keyword htmlArg contained itemid itemscope itemtype itemprop itemref
 
 " RDFa
 " http://www.w3.org/TR/rdfa-syntax/#a_xhtmlrdfa_dtd
