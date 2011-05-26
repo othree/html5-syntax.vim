@@ -11,10 +11,6 @@ HTML5 syntax file for vim.
 
 ## Install
 
-    curl http://github.com/othree/html5-syntax.vim/raw/master/syntax/html.vim > ~/.vim/syntax/html.vim
-
-or
-
     git clone git://github.com/othree/html5-syntax.vim.git
     cd html5-syntax.vim
     cp syntax/html.vim ~/.vim/syntax/
