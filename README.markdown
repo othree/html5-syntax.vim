@@ -13,7 +13,7 @@ HTML5 syntax file for vim.
 
     git clone git://github.com/othree/html5-syntax.vim.git
     cd html5-syntax.vim
-    cp syntax/html.vim ~/.vim/syntax/
+    cp syntax/html/html5.vim ~/.vim/syntax/
 
 [customdata]:http://dev.w3.org/html5/spec/Overview.html#custom-data-attribute
 [microdata]:http://www.w3.org/TR/microdata/
